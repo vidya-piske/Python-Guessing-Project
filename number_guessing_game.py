@@ -19,11 +19,3 @@ def check_guess(shuffled_list, user_guess):
 # Initialization
 mylist = ['', '0', '']
 
-# Shuffled List
-shuffle_output = shuffle_list(mylist)
-
-# User Input
-user_guess_value = get_user_guess()
-
-# Guessing
-check_guess(shuffle_output, user_guess_value)
