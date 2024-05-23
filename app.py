@@ -1,5 +1,5 @@
-from flask import Flask
-from number_guessing_game.py import shuffle_list,get_user_guess,check_guess 
+from flask import Flask, render_template
+from number_guessing_game import shuffle_list,get_user_guess,check_guess,mylist 
 
 app = Flask(__name__)
 
